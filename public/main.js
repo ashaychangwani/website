@@ -2910,8 +2910,8 @@
                 ? (this.two.classList.add("hidden"), this.three.classList.remove("hidden"), this.four.classList.add("hidden"))
                 : (this.two.classList.add("hidden"), this.three.classList.add("hidden"), this.four.classList.remove("hidden"));
             let e = "";
-            for (let t = 0; t < this.progress.questionMarks; t++) e += "?";
-            this.four.textContent = `4D${e}`;
+            for (let t = 0; t < this.progress.questionMarks; t++) e += ".";
+            this.four.textContent = `Machine Learning${e}`;
         }
     }
     let F = null;

@@ -6551,6 +6551,8 @@ picture[data-lazy] {
 
     padding: 40px!important;*/
 
+    justify-content: space-around;
+    display: flex; 
     width: 85%;
 
     margin: auto;  
@@ -6659,7 +6661,39 @@ picture[data-lazy] {
 
 }
 
+.school-subtitle {
+
+    font-size: 16px;
+
+    font-family: Articulat CF, system-ui, sans-serif;
+
+    font-weight: 600;
+
+    letter-spacing: 0.2px;
+
+}
+
+.school-dates {
+
+    margin-top: 6px;
+
+    font-size: 16px;
+
+    font-family: Articulat CF, system-ui, sans-serif;
+
+    font-weight: 400;
+
+    letter-spacing: 0.2px;
+
+}
+
 .school-text-holder p {
+
+    margin-top: 6px;
+
+    font-style: italic;
+
+    font-size: 14px;
 
     font-family: Articulat CF, system-ui, sans-serif;
 
