@@ -386,8 +386,9 @@ footer .footer__inner {
 
     width: 100%;
 
-    z-index: 2
-
+    z-index: 2;
+    
+    justify-content: space-between;
 }
 
 
@@ -404,7 +405,7 @@ footer .footer__inner {
 
 
 
-/*.navigation:before {
+.navigation:before {
 
     background-color: #484848;
 
@@ -418,7 +419,7 @@ footer .footer__inner {
 
     width: 100%
 
-}*/
+}
 
 
 
