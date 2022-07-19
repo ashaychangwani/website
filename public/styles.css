@@ -6761,7 +6761,7 @@ picture[data-lazy] {
 
 .grid-1 {
 
- width: 35.33333%;
+ width: 25.33333%;
 
 }
 
@@ -6769,10 +6769,8 @@ picture[data-lazy] {
 
 .grid-2 {
     width: 50.66666%;
-    float: right;
-    box-shadow: 10px 5px 20px 0px #1d1b4c24;
-    padding: 25px 25px 25px!important;
-    border: solid 1px#ededed;
+    margin-left: 10%;
+    padding: 15px 15px 15px!important;
 }
 .gc {
 
@@ -6879,7 +6877,7 @@ picture[data-lazy] {
 
 
 .exp_tabs .menu .tab_title{
-    padding: 5px;
+    padding: 10px;
     padding-left: 15px;
 }
 
@@ -6943,6 +6941,11 @@ picture[data-lazy] {
     padding: 15px;
 }
 
+.exp_tabs .menu .tab_title.active span{
+
+    color: #d36660;
+
+}
 
 ul.exp_tab_ul {
 
@@ -7042,11 +7045,11 @@ ul.exp_tab_ul li p {
 
     font-family: Articulat CF, system-ui, sans-serif;
 
-    font-size: 22px;
+    font-size: 19px;
 
     letter-spacing: 0.2px;
 
-    font-weight: 600;
+    font-weight: 400;
 
     display: flex;
 
