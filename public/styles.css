@@ -6878,6 +6878,10 @@ picture[data-lazy] {
 }
 
 
+.exp_tabs .menu .tab_title{
+    padding: 5px;
+    padding-left: 15px;
+}
 
 .exp_tabs .menu div:hover {
 
@@ -6935,6 +6939,9 @@ picture[data-lazy] {
 
 }
 
+.exp_tabs .menu .tab_title.active{
+    padding: 15px;
+}
 
 
 ul.exp_tab_ul {

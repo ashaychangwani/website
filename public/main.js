@@ -3444,17 +3444,17 @@
                 });
         }
         lazyLoad() {
-            this.lazyLoadItems.forEach((t) => {
-                if (!t.loaded && (window.scrollY >= t.scrollTarget || window.pageYOffset >= t.scrollTarget)) {
-                    if (t.lazyTarget && t.lazyData) {
-                        const e = document.createElement("picture");
-                        e.innerHTML = t.lazyData.textContent;
-                        const s = e.firstChild;
-                        s.setAttribute("data-lazy", ""), t.lazyTarget.parentNode.replaceChild(s, t.lazyTarget);
-                    }
-                    t.loaded = !0;
-                }
-            });
+            // this.lazyLoadItems.forEach((t) => {
+            //     if (!t.loaded && (window.scrollY >= t.scrollTarget || window.pageYOffset >= t.scrollTarget)) {
+            //         if (t.lazyTarget && t.lazyData) {
+            //             const e = document.createElement("picture");
+            //             e.innerHTML = t.lazyData.textContent;
+            //             const s = e.firstChild;
+            //             s.setAttribute("data-lazy", ""), t.lazyTarget.parentNode.replaceChild(s, t.lazyTarget);
+            //         }
+            //         t.loaded = !0;
+            //     }
+            // });
         }
         _createViewportTracker() {
             (this.viewportTracker = document.createElement("div")),
