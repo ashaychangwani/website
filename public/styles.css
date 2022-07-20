@@ -4600,7 +4600,7 @@ footer .footer__inner {
 
 .enhanced .contact {
 
-    height: 125vh;
+    height: 100vh;
 
     margin-top: -100vh;
 
@@ -6542,7 +6542,7 @@ picture[data-lazy] {
 
     overflow: hidden;
 
-    padding: 80px 20px
+    padding: 80px 20px;
 
 }
 
@@ -6650,6 +6650,8 @@ picture[data-lazy] {
 
 .school-title {
 
+    color: #d36660;
+
     margin-left: -6%;
 
     font-size: 19px;
@@ -6730,8 +6732,12 @@ picture[data-lazy] {
 
 	background-color: #fff;
 
-	padding: 5px 20px 80px;
+    padding: 80px 20px;
 
+}
+
+.experience a{
+    color: #d36660;
 }
 
 
@@ -6833,7 +6839,7 @@ picture[data-lazy] {
 
  position: relative;
 
- max-width: 900px;
+ max-width: 1400px;
 
  margin: 0px auto 70px;
 
@@ -6999,6 +7005,53 @@ ul.exp_tab_ul .tab_des_li p {
 
  margin: 0;
 
+}
+
+.grid{
+    padding-left: 5%;
+}
+.desc{
+    font-family: Articulat CF, system-ui, sans-serif;
+    padding-left: 25px;
+    line-height: 130%;
+    list-style: none;
+}
+
+.desc li::before{
+    content: "\25E6";
+    font-weight: 1000;
+    color: #d36660;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 25px;
+    line-height: 130%;;
+}
+
+.t_content h2{
+    color: #d36660;
+    font-family: Articulat CF, system-ui, sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 450;
+    font-size: 19px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.t_content h3{
+    display: inline-block;
+    font-family: Articulat CF, system-ui, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 17px;
+}
+
+.t_content h5{
+
+    font-family: Articulat CF, system-ui, sans-serif;
+    font-size: 15px;
+    color: #8a8888;
+    margin-bottom: 10px;
 }
 
 .tab_title:before {
