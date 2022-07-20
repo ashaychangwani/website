@@ -618,13 +618,13 @@
 
         	if (!$(this).is("active")) {
         		$(".exp_tabs .menu div").removeClass("active");
-        		$(".exp_tabs ul li").removeClass("active");
+        		$(".exp_tabs ul .tab_des_li").removeClass("active");
 
         		$(this).addClass("active");
-        		$(".exp_tabs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+        		$(".exp_tabs ul").find(".tab_des_li:eq(" + numberIndex + ")").addClass("active");
 
         		var listItemHeight = $(".exp_tabs ul")
-        			.find("li:eq(" + numberIndex + ")")
+        			.find(".tab_des_li:eq(" + numberIndex + ")")
         			.innerHeight();
         		$(".exp_tabs ul").height(listItemHeight + "px");
         	}

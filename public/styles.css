@@ -6965,7 +6965,7 @@ ul.exp_tab_ul {
 
 
 
-ul.exp_tab_ul li {
+ul.exp_tab_ul .tab_des_li {
 
  opacity: 0;
 
@@ -6981,7 +6981,7 @@ ul.exp_tab_ul li {
 
 
 
-ul.exp_tab_ul li.active {
+ul.exp_tab_ul .tab_des_li.active {
 
  transition-delay: .3s;
 
@@ -6995,7 +6995,7 @@ ul.exp_tab_ul li.active {
 
 
 
-ul.exp_tab_ul li p {
+ul.exp_tab_ul .tab_des_li p {
 
  margin: 0;
 
